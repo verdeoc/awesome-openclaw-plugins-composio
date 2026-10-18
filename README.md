@@ -192,6 +192,8 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 ### Notifications & Alerts
 
 - **[openclaw-ntfy](https://github.com/binwiederhier/openclaw-ntfy)** — Push notifications via ntfy.sh — get notified on your phone when long-running agent tasks complete. Self-hostable.
+
+- **[reply-push-v2](https://github.com/verdeoc/reply-push-v2)** — Native APNs notifications to the official OpenClaw iOS app; Free edition 2.1.1 covers `agentFinished`, Pro adds four event categories. By [@verdeoc](https://github.com/verdeoc). Install: `openclaw plugins install reply-push-v2`. [ClawHub](https://clawhub.ai/verdeoc/plugins/reply-push-v2).
 - **[openclaw-discord-notify](https://github.com/crawdaddy-ai/openclaw-discord-notify)** — Post agent status updates, summaries, and alerts to Discord channels via webhooks.
 
 ### Code Quality & Linting
